@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-kigurumi",
   "description": "河妖工坊Kigurumi头壳进度查询",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,8 +9,10 @@
     "dist"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/xmbhjQAQ/koishi-plugin-kigurumi",
   "keywords": [
-    "chatbot",
+    "kigurumi",
+    "tool",
     "koishi",
     "plugin"
   ],
@@ -22,6 +24,11 @@
   ],
   "repository": {                           
     "type": "git",
-    "url": "git+https://github.com/alice/koishi-plugin-example.git"
+    "url": "https://github.com/xmbhjQAQ/koishi-plugin-kigurumi.git"
+  },
+  "koishi": {
+    "description": {                        
+      "zh": "河妖工坊Kigurumi头壳进度查询"
+    }
   }
 }
